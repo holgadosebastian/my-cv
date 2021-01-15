@@ -1,0 +1,1 @@
+export const title = 'font-thin text-purple-500 text-2xl uppercase font-display';
