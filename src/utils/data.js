@@ -105,10 +105,11 @@ const data = {
           "HTML5/CSS3",
           "SASS/SCSS",
           "Javascript ES6",
-          "AngularJS",
           "GIT",
           "CI/CD",
           "Shopify Development",
+          "Bootstrap",
+          ""
         ],
       },
       {
@@ -117,6 +118,7 @@ const data = {
           "React",
           "NodeJS/ExpressJS",
           "MongoDB",
+          "AngularJS",
         ],
       },
       {
