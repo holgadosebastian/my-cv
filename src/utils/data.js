@@ -109,7 +109,6 @@ const data = {
           "CI/CD",
           "Shopify Development",
           "Bootstrap",
-          ""
         ],
       },
       {
@@ -119,6 +118,7 @@ const data = {
           "NodeJS/ExpressJS",
           "MongoDB",
           "AngularJS",
+          "GraphQL"
         ],
       },
       {
@@ -127,6 +127,7 @@ const data = {
           "Ruby",
           "Ruby On Rails",
           "Java",
+          "Strapi"
         ],
       },
       {
