@@ -28,24 +28,56 @@ const data = {
         value: 'holgado.sebastian',
         id: 4,
       },
+      {
+        title: 'LinkedIn',
+        value: 'linkedin.com/in/holgadosebastian',
+        id: 5,
+      },
     ],
   },
   workExperience: {
     title: 'Work experience',
     entries: [
       {
-        role: 'Front End Developer Senior',
+        role: 'Front End Lead',
+        employer: 'Hashtag You',
+        period: 'February 2022 - Present',
+        description: 'Promoted to Front End Lead inside of the organization.',
+        tasks: [
+          'Requirements and specifications gathering and compiling',
+          'Work with 3rd party service providers for integrations',
+          'Update and mantaining CD pipeline',
+          'CRO project initiative and implementation',
+          'Implement DevOps',
+          'Conduct candidate interviews for Front End roles and Head of Engineering',
+          'Document features and processes',
+          'Work closesly with UX team to ensure feasability of implementation',
+          'Troubleshoot issues for different departments',
+        ]
+      },
+      {
+        role: 'Senior Front End Developer',
+        employer: 'Hashtag You',
+        period: 'September 2020 - January 2022',
+        description: 'Developer for a Brand Builder e-commerce, with Shopify as its main platform.',
+        tasks: [
+          'Updated and mantained main Shopify theme',
+          'Created CD pipeline using DeployBot',
+          'Built React powered features',
+          'Created living styleguide for Theme components and sections'
+        ]
+      },
+      {
+        role: 'Senior Front End Developer',
         employer: 'Polaroid Originals',
         period: 'April 2018 - April 2020',
         description: 'Developer for Polaroid Originals e-commerce website, built on Shopify.',
         tasks: [
-          'HTML5 Development – Liquid templates, Microformats, email templating',
+          'Theme development, HTML5 Development, Slate, Liquid templates, email templating',
           'CSS – CSS3, Media Queries and Flexbox, SASS. Mobile First and Responsive Web Design',
           'Javascript – VanillaJS ES6, jQuery, Rivets',
-          'Shopify – Slate, Shopify APIs, Theme development',
           'Git, Deploybot',
           'A/B testing/conversion rate optimization',
-          'Conducted candidate interviews for Front End roles',
         ]
       },
       {
@@ -57,11 +89,8 @@ const data = {
           'Created and mantained responsive single page applications using AngularJS, SASS, Grunt, Java and NodeJS',
           'Worked with Product Analysts, UI Designers, UI Developers and Back End Developers',
           'Mantained and versioned code using GIT',
-          'Deployed applications to production using the command line, Jenkins and other tools',
-          'Created and mantained Grunt tasks',
           'Created responsive e-mail templates',
           'Partaken as an educator for in-company UI development courses and a trainee program',
-          'Wrote documentation',
         ]
       },
       {
@@ -72,8 +101,6 @@ const data = {
           'Designed and developed responsive websites and landing pages',
           'Deployed sites to production using Heroku, OpenShift and FTP',
           'Re-styled Wordpress themes and mantained Wordpress sites',
-          'Created logos and digital brand identities',
-          'Briefed about progress and delivered finished projects to clients',
         ]
       },
       {
@@ -90,7 +117,7 @@ const data = {
       {
         title: 'Multimedia Design',
         entity: 'Universidad Nacional de La Plata',
-        period: '3 years - Not finished',
+        period: '3 years',
         description: 'With a strong focus on User Interface Design and User Experience, college has given me the tools and the passion to achieve my goals should they be designing complex, yet intuitive interfaces, or developing them.',
       }
     ]
@@ -108,7 +135,6 @@ const data = {
           "GIT",
           "CI/CD",
           "Shopify Development",
-          "Bootstrap",
         ],
       },
       {
@@ -118,7 +144,8 @@ const data = {
           "NodeJS/ExpressJS",
           "MongoDB",
           "AngularJS",
-          "GraphQL"
+          "GraphQL",
+          "DevOps",
         ],
       },
       {
