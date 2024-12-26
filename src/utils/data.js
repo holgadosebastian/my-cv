@@ -2,8 +2,8 @@ const data = {
   personal: {
     image: 'https://avatars2.githubusercontent.com/u/9201634?s=460&amp;u=602fef0d9bdac7483a513813ecbdea884fd53b39&amp;v=4',
     name: 'Sebastián Holgado',
-    title: 'Senior Front End Developer & Shopify Expert',
-    extract: 'I am a Web Developer with strong focus on Design and Usability, creating powerful applications that users enjoy using. Reading and improving my skills, as well as obtaining new ones are part of my daily routine. I am also an educator at heart, being an assistant professor in college and providing training at work. I also enjoy taking photographs and traveling!',
+    title: 'Senior Front End Developer',
+    extract: 'With more than 10 years experience in Web Development, I mainly use Modern tools and frameworks such as Typescript, Vite, Tailwind and Prisma.',
   },
   contactInfo: {
     title: 'Contact Info',
@@ -14,24 +14,14 @@ const data = {
         id: 1,
       },
       {
-        title: 'Phone',
-        value: '+4915788503725',
-        id: 2,
-      },
-      {
         title: 'Github',
         value: 'github.com/holgadosebastian',
-        id: 3,
-      },
-      {
-        title: 'Skype',
-        value: 'holgado.sebastian',
-        id: 4,
+        id: 2,
       },
       {
         title: 'LinkedIn',
         value: 'linkedin.com/in/holgadosebastian',
-        id: 5,
+        id: 4,
       },
     ],
   },
@@ -39,33 +29,40 @@ const data = {
     title: 'Work experience',
     entries: [
       {
+        role: 'Senior Front End Developer',
+        employer: 'Latori',
+        period: 'April 2023 - Present',
+        description: 'As a Senior Front End Developer, I lead many projects as well as handled some of them on my own',
+        tasks: [
+          'Handled Full Stack development of Headless Storefronts using <b>Typescript</b>, <b>Remix</b>, <b>Vite</b>, <b>Tailwind</b>, <b>Prisma</b> and <b>Storyblok</b>',
+          'Translated <b>Figma</b> Design Tokens into <b>CSS Variables</b>',
+          'Crafted <b>Design System</b> to aid in the creation of <b>UI Components</b>',
+          'Implemented and scaled <b>CD pipelines</b> to ensure a streamlined development process across teams',
+          'Lead iniciatives with UX/UI Designers to improve the <b>Usability</b> of applications, as well as implementing <b>pixel perfect</b> designs',
+          'Written detailed <b>Documentation</b> on functionality, scalabilty and observavility of applications and processes',
+          'Handled code reviews to ensure code readability'
+        ]
+      },
+      {
         role: 'Front End Lead',
         employer: 'Hashtag You',
-        period: 'February 2022 - Present',
-        description: 'Promoted to Front End Lead inside of the organization.',
+        period: 'February 2022 - December 2023',
+        description: 'Promoted to Lead inside of the organization to handle the efforts on delivering updates on the E-commerce platform',
         tasks: [
-          'Requirements and specifications gathering and compiling',
-          'Work with 3rd party service providers for integrations',
-          'Update and mantaining CD pipeline',
-          'CRO project initiative and implementation',
-          'Implement DevOps',
-          'Conduct candidate interviews for Front End roles and Head of Engineering',
-          'Document features and processes',
-          'Work closesly with UX team to ensure feasability of implementation',
-          'Troubleshoot issues for different departments',
+          'Developed and mantained features using <b>Web Components</b>, <b>React</b> and <b>Context API</b>',
+          'Integrated 3rd party services, such as marketing and functionality tracking and error monitoring using <b>Sentry</b>',
+          'Created and mantained a streamlined <b>CD pipeline</b>',
+          'Lead iniciatives on <b>CRO</b> across the different platforms',
+          'Conducted candidate interviews for Front End roles',
+          'Documented features and processes',
+          'Worked closely with UX Designers to ensure feasability of implementation',
+          'Troubleshooted issues for different departments',
         ]
       },
       {
         role: 'Senior Front End Developer',
         employer: 'Hashtag You',
         period: 'September 2020 - January 2022',
-        description: 'Developer for a Brand Builder e-commerce, with Shopify as its main platform.',
-        tasks: [
-          'Updated and mantained main Shopify theme',
-          'Created CD pipeline using DeployBot',
-          'Built React powered features',
-          'Created living styleguide for Theme components and sections'
-        ]
       },
       {
         role: 'Senior Front End Developer',
@@ -74,9 +71,8 @@ const data = {
         description: 'Developer for Polaroid Originals e-commerce website, built on Shopify.',
         tasks: [
           'Theme development, HTML5 Development, Slate, Liquid templates, email templating',
-          'CSS – CSS3, Media Queries and Flexbox, SASS. Mobile First and Responsive Web Design',
-          'Javascript – VanillaJS ES6, jQuery, Rivets',
-          'Git, Deploybot',
+          'CSS3, Media Queries and Flexbox, SASS. Mobile First and Responsive Web Design',
+          'Javascript – VanillaJS ES6, jQuery',
           'A/B testing/conversion rate optimization',
         ]
       },
@@ -86,10 +82,9 @@ const data = {
         period: 'March 2015 - September 2017',
         description: 'Developer for the largest travel e-commerce in Latin America with more than 700000 hits a month, working on customer facing projects and applications.',
         tasks: [
-          'Created and mantained responsive single page applications using AngularJS, SASS, Grunt, Java and NodeJS',
+          'Created and mantained responsive <b>Single Page Applications </b> using <b>AngularJS</b>, <b>SASS</b>, <b>Grunt</b>, <b>Java</b> and <b>NodeJS</b>',
           'Worked with Product Analysts, UI Designers, UI Developers and Back End Developers',
-          'Mantained and versioned code using GIT',
-          'Created responsive e-mail templates',
+          'Created responsive <b>e-mail templates</b>',
           'Partaken as an educator for in-company UI development courses and a trainee program',
         ]
       },
@@ -97,11 +92,7 @@ const data = {
         role: 'UI Designer & Developer',
         employer: 'Freelance',
         period: '2013 - 2017',
-        tasks: [
-          'Designed and developed responsive websites and landing pages',
-          'Deployed sites to production using Heroku, OpenShift and FTP',
-          'Re-styled Wordpress themes and mantained Wordpress sites',
-        ]
+        description: 'Delivered Websites and Graphic design items to clients',
       },
       {
         role: 'QA Analyst',
@@ -115,37 +106,34 @@ const data = {
     title: 'Education',
     entries: [
       {
-        title: 'Multimedia Design',
+        title: 'Interface Design',
         entity: 'Universidad Nacional de La Plata',
-        period: '3 years',
-        description: 'With a strong focus on User Interface Design and User Experience, college has given me the tools and the passion to achieve my goals should they be designing complex, yet intuitive interfaces, or developing them.',
+        period: '2012 - 2014'
       }
     ]
   },
   skills: {
     title: 'Skills',
-    description: 'My main focus is Front End Development, but I’m no stranger to most design tools included in the Adobe Package.',
+    description: 'My main focus is Front End Development, but I also have a strong skillset when it comes to Full Stack development with JavaScript applications.',
     entries: [
       {
-        title: 'Proficient',
+        title: 'Main',
         fields: [
           "HTML5/CSS3",
           "SASS/SCSS",
-          "Javascript ES6",
+          "Javascript",
+          "Typescript",
+          "React",
+          "Remix",
+          "Storybook",
+          "Prisma",
+          "GraphQL",
           "GIT",
           "CI/CD",
+          "ExpressJS",
+          "Storyblok",
+          "Hydrogen",
           "Shopify Development",
-        ],
-      },
-      {
-        title: 'Working Level',
-        fields: [
-          "React",
-          "NodeJS/ExpressJS",
-          "MongoDB",
-          "AngularJS",
-          "GraphQL",
-          "DevOps",
         ],
       },
       {
@@ -158,13 +146,11 @@ const data = {
         ],
       },
       {
-        title: 'Design',
+        title: 'Design tools',
         fields: [
           "Photoshop",
           "Illustrator",
-          "Premiere Pro",
-          "Lightroom",
-          "Photography"
+          "Figma"
         ],
       },
     ],
@@ -183,13 +169,8 @@ const data = {
       },
       {
         name: 'German',
-        level: 'Beginner',
-        description: 'Self taught',
-      },
-      {
-        name: 'Japanese',
-        level: 'Beginner',
-        description: 'Yonkyu (The Japan Foundation and Japan Educational Exchanges and Services)',
+        level: 'Intermediate',
+        description: 'Level A2',
       },
     ],
   },
