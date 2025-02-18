@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from 'react'
+import React from 'react'
 
 import data from './utils/data'
 import * as classNames from './utils/classNames'

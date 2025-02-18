@@ -1,11 +1,8 @@
-import React, { Fragment, useState } from 'react'
+import React, { Fragment } from 'react'
 
-import data from './utils/data'
 import * as classNames from './utils/classNames'
 
 import { Header } from './Header'
-
-const { personal, contactInfo, workExperience, education, skills, languages, involvement, findMeOn } = data;
 
 const paragraphs = [
   {

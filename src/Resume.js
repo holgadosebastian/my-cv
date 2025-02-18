@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from 'react'
+import React, { Fragment } from 'react'
 
 import data from './utils/data'
 import * as classNames from './utils/classNames'
@@ -75,20 +75,6 @@ export function Resume() {
           </div>
         </div>
       </main>
-
-      {/* <footer className="bg-gray-100 py-4 text-center md:text-left print:fixed print:bottom-0 print:left-0 print:right-0 print:text-left">
-        <div className={classNames.container}>
-          <div className="md:flex md:items-center print:flex print:items-center">
-            <p className={`${classNames.title} md:w-2/12 print:w-2/12`}>{findMeOn.title}</p>
-            {findMeOn.entries.map(({ name, value }) => (
-              <div className="mt-3 md:w-3/12 md:mt-0 print:w-3/12 print:mt-0">
-                <p>{name}</p>
-                <p>{value}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </footer> */}
     </Fragment>
   );
 }
