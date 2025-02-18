@@ -34,7 +34,7 @@ const data = {
         period: 'April 2023 - Present',
         description: 'As a Senior Front End Developer, I lead many projects as well as handled some of them on my own',
         tasks: [
-          'Handled Full Stack development of Headless Storefronts using <b>Typescript</b>, <b>Remix</b>, <b>Vite</b>, <b>Tailwind</b>, <b>Prisma</b> and <b>Storyblok</b>',
+          'Handled Full Stack development of Headless Storefronts using <b>Typescript</b>, <b>React</b>, <b>Remix</b>, <b>Vite</b>, <b>Tailwind</b>, <b>Prisma</b> and <b>Storyblok</b>',
           'Translated <b>Figma</b> Design Tokens into <b>CSS Variables</b>',
           'Crafted <b>Design System</b> to aid in the creation of <b>UI Components</b>',
           'Implemented and scaled <b>CD pipelines</b> to ensure a streamlined development process across teams',
